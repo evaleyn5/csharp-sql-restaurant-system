@@ -1,22 +1,32 @@
-# 🍽️ C# SQL Restaurant Management System
+🍽️ Restaurant Menu Management System
 
-This is a console-based restaurant management system developed using **C#** and **SQL Server**. The application allows users to manage restaurant menu items with full CRUD operations.
+This project is a console-based application developed using C# and SQL Server.
+It allows users to manage restaurant menu items with category-based structure and CRUD operations.
+
+🚀 Features
+
+Add new products
+
+List all products
+
+Delete products
+
+Update product information
+
+Category-based menu system (Starter, Main Course, Dessert)
+
+🛠️ Technologies Used
+
+C#
+
+.NET Console Application
+
+SQL Server
+
+ADO.NET
 
 
-## 🚀 Features
 
-- ➕ Add new products  
-- 📋 List all products  
-- ❌ Delete products  
-- 🔄 Update product information  
-- 🗂️ Category-based menu system  
-
-
-## 🛠️ Technologies Used
-
-- C# (.NET Console Application)  
-- SQL Server  
-- ADO.NET
 
 
 ## 📸 Console Preview
