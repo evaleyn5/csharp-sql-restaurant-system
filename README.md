@@ -1,33 +1,22 @@
-🍽️ Restaurant Menu Management System
+# 🍽️ Restaurant Menu Management System
 
-This project is a console-based application developed using C# and SQL Server.
+This project is a console-based application developed using **C#** and **SQL Server**.
 It allows users to manage restaurant menu items with category-based structure and CRUD operations.
 
-🚀 Features
+## 🚀 Features
 
-Add new products
+* Add new products
+* List all products
+* Delete products
+* Update product information
+* Category-based menu system (Starter, Main Course, Dessert)
 
-List all products
+## 🛠️ Technologies Used
 
-Delete products
-
-Update product information
-
-Category-based menu system (Starter, Main Course, Dessert)
-
-🛠️ Technologies Used
-
-C#
-
-.NET Console Application
-
-SQL Server
-
-ADO.NET
-
-
-
-
+* C#
+* .NET Console Application
+* SQL Server
+* ADO.NET
 
 ## 📸 Console Preview
 
@@ -43,33 +32,44 @@ ADO.NET
 ### Delete Product
 ![Delete Product](restaurant_delete.png)
 
-
 ## 🧠 What I Learned
 
-- Building CRUD operations with SQL Server  
-- Using ADO.NET for database connectivity  
-- Designing console-based user interfaces  
-- Managing relational data (products & categories)  
+* Database connection and management with SQL Server
+* Performing CRUD operations using ADO.NET
+* Writing SQL queries and managing relational data
+* Building console-based backend applications
 
+## 📂 Database Structure
+
+### TbsCategory
+
+* CategoryId (int)
+* CategoryName (nvarchar)
+
+### TbsProduct
+
+* ProductId (int)
+* ProductName (nvarchar)
+* ProductPrice (decimal)
+* CategoryId (int)
 
 ## ⚙️ How to Run
 
-1. Clone this repository  
-2. Open the project in Visual Studio  
-3. Update the SQL connection string if needed  
-4. Run the project  
-
+1. Clone this repository
+2. Open in Visual Studio
+3. Update connection string if needed
+4. Run the project
 
 ## 📌 Notes
 
-- The project uses a local SQL Server database  
-- Connection string may need to be updated depending on your system  
-
+This project was developed as part of my backend development learning process.
 
 ## 👩‍💻 Developer
 
 Aleyna
 
-Aleyna
+
+
+
 
 
