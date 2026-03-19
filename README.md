@@ -16,7 +16,22 @@ This is a console-based restaurant management system developed using **C#** and 
 
 - C# (.NET Console Application)  
 - SQL Server  
-- ADO.NET  
+- ADO.NET
+
+
+## 📸 Console Preview
+
+### Add Product
+![Add Product](restaurant_add.png)
+
+### List Products
+![List Products](restaurant_list.png)
+
+### Update Product
+![Update Product](restaurant_update.png)
+
+### Delete Product
+![Delete Product](restaurant_delete.png)
 
 
 ## 🧠 What I Learned
