@@ -1,56 +1,49 @@
-# 🍽️ Restaurant Menu Management System
+# 🍽️ C# SQL Restaurant Management System
 
-This project is a console-based application developed using **C#** and **SQL Server**.
-It allows users to manage restaurant menu items with basic database operations.
+This is a console-based restaurant management system developed using **C#** and **SQL Server**. The application allows users to manage restaurant menu items with full CRUD operations.
+
 
 ## 🚀 Features
 
-* ➕ Add new products
-* 📋 List all products
-* ❌ Delete products
-* 🔄 Update product information
-* 🗂️ Category-based menu system (Starter, Main Course, Dessert)
+- ➕ Add new products  
+- 📋 List all products  
+- ❌ Delete products  
+- 🔄 Update product information  
+- 🗂️ Category-based menu system  
+
 
 ## 🛠️ Technologies Used
 
-* C#
-* .NET Console Application
-* SQL Server
-* ADO.NET
+- C# (.NET Console Application)  
+- SQL Server  
+- ADO.NET  
+
 
 ## 🧠 What I Learned
 
-* Database connection with SQL Server
-* CRUD operations (Create, Read, Update, Delete)
-* Using SqlConnection and SqlCommand
-* Working with relational tables (Product & Category)
+- Building CRUD operations with SQL Server  
+- Using ADO.NET for database connectivity  
+- Designing console-based user interfaces  
+- Managing relational data (products & categories)  
 
-## 📂 Database Structure
-
-### TbsCategory
-
-* CategoryId (int)
-* CategoryName (nvarchar)
-
-### TbsProduct
-
-* ProductId (int)
-* ProductName (nvarchar)
-* ProductPrice (decimal)
-* CategoryId (int)
 
 ## ⚙️ How to Run
 
-1. Clone this repository
-2. Open the project in Visual Studio
-3. Update the SQL connection string if needed
-4. Run the project
+1. Clone this repository  
+2. Open the project in Visual Studio  
+3. Update the SQL connection string if needed  
+4. Run the project  
+
 
 ## 📌 Notes
 
-This project is part of my learning journey in backend development and database management.
+- The project uses a local SQL Server database  
+- Connection string may need to be updated depending on your system  
+
 
 ## 👩‍💻 Developer
+
+Aleyna
 
 Aleyna
 
