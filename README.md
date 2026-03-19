@@ -51,7 +51,6 @@ It allows users to manage restaurant menu items with category-based structure an
 * ProductId (int)
 * ProductName (nvarchar)
 * ProductPrice (decimal)
-* CategoryId (int)
 
 ## ⚙️ How to Run
 
